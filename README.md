@@ -1,4 +1,4 @@
- ## _Assignment No 1 : Reverse The Contents of an Input File._
+ ## Assignment No 1 : Reverse The Contents of an Input File.
 
 
 Lets say the input is something like this
