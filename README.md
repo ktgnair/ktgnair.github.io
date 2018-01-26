@@ -446,7 +446,7 @@ int main()
 The above source code seems good as compared to my other approches but its not efficient.  
 My mentor suggested me some tricks to make it efficient such as making the reverse function short, avoiding the duplication of code in main() just after while loop the next 3 lines of operation are already been done in the while loop.  
 
-So after those changes the final code which he approved looked something like this
+So after those changes the final code which he approved :+1: looked something like this
 
 ```c
 #include<stdio.h>
@@ -552,3 +552,4 @@ int main()
 	return 0;	
 }
 ```
+:smile:
