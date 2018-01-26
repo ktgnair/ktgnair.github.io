@@ -1,6 +1,6 @@
  **[Assignment 1](https://ktgnair.github.io/)**
  
- **ASSIGNMENT NO 1**
+ **PROGRAM NO 1**
  
  _**Reverse The Contents of an Input File.**_
 
