@@ -41,10 +41,11 @@ This method can be explained best with an example
 
 
 Step 1
-File 1(Input File)||	File 2||	File 3
-	a		a	b
-	b		
-	c
+File 1(Input File) | File 2 | File 3
+------------------ | ------ | ------
+	a | a | b
+	b |		
+	c |
 Step 2
 File 1(Input File)	File 2	File 3 (Append a to file 3)
 	a			b
