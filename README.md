@@ -1,20 +1,23 @@
- ## _**Assignment No 1 :** Reverse The Contents of an Input File._
+ ## _Assignment No 1 : Reverse The Contents of an Input File._
 
 
 Lets say the input is something like this
+
 Input: “hello world
         I am ktgnair."
         
 So the output should be like this
+
 Output: “.riangtk ma I
          dlrow olleh”
 
 
-+ APPROACH 1
-As the question said reverse the contents so using fseek() and reading from the end of the file character by character was something that came to my mind.
-It was working smoothly for file having small size but as soon as the file size increased the execution time increased gradually which didn't seem feasible.
++ **APPROACH 1**
 
-+ APPROACH 2
+As the question said reverse the contents so using fseek() and reading from the end of the file character by character was something that came to my mind.  
+It was working smoothly for file having small size but as soon as the file size increased the execution time increased gradually which didn't seem feasible.  
+
++ **APPROACH 2**
 
 The next thought that came into my mind was to use 2 files
 In that method i was taking a small chunk of data, reversing it and storing it in the second file.
@@ -32,7 +35,7 @@ i.e. for
 	Estimated Output: ".riangtk ma I
          		    dlrow olleh"	
 
-+ APPROACH 3 
++ **APPROACH 3** 
 
 After two failure I started thinking the problem as some puzzle and was able to come up with a solution that is _**Tower of Hanoi**_ problem.  
 So with that as my approach i planned on using 3 files of which one is the input file and the next two are for data swapping.
@@ -96,7 +99,7 @@ So the **Output** is data from File 2 - cba
 This method worked fine but was very hectic process.  
 This also ended up as a faluire
 
-+ APPROACH 4 
++ **APPROACH 4** 
 
 After three successive failures came a solution which stood out till the last
 
