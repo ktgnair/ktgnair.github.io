@@ -1,4 +1,4 @@
- ## Assignment No 1 : Reverse The Contents of an Input File.
+ # Assignment No 1 : Reverse The Contents of an Input File.
 
 
 Lets say the input is something like this
@@ -12,7 +12,7 @@ Output: “.riangtk ma I
          dlrow olleh”
 
 
-+ **APPROACH 1**
+> **APPROACH 1**
 
 As the question said reverse the contents so using fseek() and reading from the end of the file character by character was something that came to my mind.  
 It was working smoothly for file having small size but as soon as the file size increased the execution time increased gradually which didn't seem feasible.  
