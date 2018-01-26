@@ -1,15 +1,15 @@
- ## Assignment No 1 : Reverse The Contents of an Input File.
+ ## Assignment No 1 : _Reverse The Contents of an Input File._
 
 
 Lets say the input is something like this
 
-Input: “hello world
-        I am ktgnair."
+“hello world   
+I am ktgnair."
         
 So the output should be like this
 
-Output: “.riangtk ma I
-         dlrow olleh”
+“.riangtk ma I  
+dlrow olleh”
 
 
 > **APPROACH 1**
