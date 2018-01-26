@@ -21,13 +21,15 @@ In that method i was taking a small chunk of data, reversing it and storing it i
 
 The only problem with that method was that i was not getting the required output.
 
-i.e. for Input: "hello world
-        	 I am ktgnair."
-	
-	 Actual Output: "dlrow olleh
-			 .riangtk ma I"
+i.e. for 
 
-	 Estimated Output: ".riangtk ma I
+	Input: 		"hello world
+        	 	I am ktgnair."
+	
+	Actual Output:  "dlrow olleh
+			.riangtk ma I"
+
+	Estimated Output: ".riangtk ma I
          		    dlrow olleh"	
 
 + APPROACH 3 
