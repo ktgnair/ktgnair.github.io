@@ -265,7 +265,7 @@ So with that as my approach i planned on using 3 files of which one is the input
 
 This method can be explained best with an example
 
-Step 1
+Step 1 
 
 | File 1(Input File) | File 2 | File 3 |
 | ------------------- | ------ | ------ |
@@ -274,7 +274,7 @@ Step 1
 | c |   |   |
 
 
-Step 2
+Step 2 (Append Contents of File 2 to File 3)
 
 | File 1(Input File) | File 2 | File 3 |
 | ------------------ | ------ | ------ |
@@ -283,7 +283,7 @@ Step 2
 | c |   |   |
 
 
-Step 3
+Step 3 (Move the Contents of File 3 to File 2)
 
 | File 1(Input File) | File 2 | File 3 |
 | ------------------ | ------ | ------ |
@@ -292,7 +292,7 @@ Step 3
 | c |   |   |
 
 
-Step 4
+Step 4 (New data chunk in File 3)
 
 | File 1(Input File) | File 2 | File 3 |
 | ------------------ | ------ | ------ |
@@ -300,7 +300,7 @@ Step 4
 | b | a |   |
 | c |   |   |
 
-Step 5
+Step 5 (Append Contents of File 2 to File 3)
 
 | File 1(Input File) | File 2 | File 3 |
 | ------------------ | ------ | ------ |
@@ -309,7 +309,7 @@ Step 5
 | c |  | a |
 
 
-Step 6
+Step 6 (Move the Contents of File 3 to File 2)
 
 | File 1(Input File) | File 2 | File 3 |
 | ------------------ | ------ | ------ |
