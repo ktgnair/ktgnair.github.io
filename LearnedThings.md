@@ -67,7 +67,7 @@ What fseek() does is that it helps us to move the file pointer position to a giv
 
 > Syntax:int fseek(FILE *pointer, long int offset, int position)  
 
-where position provides us 3 options those are
+where position provides us 3 options those are  
 SEEK_END : It denotes end of the file.
 SEEK_SET : It denotes starting of the file.
 SEEK_CUR : It denotes file pointer’s current position.  
