@@ -1,3 +1,5 @@
+ ## [Assignment 1](https://ktgnair.github.io/)
+ 
  **ASSIGNMENT NO 1**
  
  _**Reverse The Contents of an Input File.**_
@@ -18,6 +20,8 @@ dlrow olleh”
 
 As the question said reverse the contents so using fseek() and reading from the end of the file character by character was something that came to my mind.  
 It was working smoothly for file having small size but as soon as the file size increased the execution time increased gradually which didn't seem feasible.  
+
+
 
 ```c
 #include<stdio.h>
@@ -54,6 +58,7 @@ int main()
 	return 0;	
 }
 ```
+
 
 > **APPROACH 2**
 
@@ -252,6 +257,7 @@ int main()
 
 ```
 
+
 > **APPROACH 3** 
 
 After two failure I started thinking the problem as some puzzle and was able to come up with a solution that is _**Tower of Hanoi**_ problem.  
@@ -315,6 +321,7 @@ So the **Output** is data from File 2 - cba
 
 This method worked fine but was very hectic process.  
 This also ended up as a faluire
+
 
 > **APPROACH 4** 
 
@@ -532,7 +539,7 @@ int main()
 	file_pointer = fopen("output1.txt","w");
 
 	sprintf(temp_file,"%d.txt",temp_file_num - 1);		//retriving filename.
-	read_file_pointer = fopen(temp_file,"r");		//open that temp file in read mode.
+	read_file_pointer = fopen(temp_file,"r");		//open the temp file in read mode.
 
 	stat(temp_file, &file_info);
   	file_size = file_info.st_size;				//retriving file size.
