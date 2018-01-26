@@ -17,7 +17,7 @@ Output: “.riangtk ma I
 As the question said reverse the contents so using fseek() and reading from the end of the file character by character was something that came to my mind.  
 It was working smoothly for file having small size but as soon as the file size increased the execution time increased gradually which didn't seem feasible.  
 
-```
+```c
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -46,8 +46,6 @@ int main()
 		fseek(fp,-2,SEEK_CUR);
 		n=ftell(fp);
 	}
-	
-	
 
 	fclose(fp);
 	fclose(fp1);
@@ -73,7 +71,7 @@ i.e. for
 	Estimated Output: ".riangtk ma I
          		    dlrow olleh"
 
-```
+```c
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -92,33 +90,25 @@ void append()
   	if ((fp1 = fopen("demo11.txt","r")) == NULL)
 	{
        		printf("Erro! opening file");
-
      	}
 	
 	fp2=fopen("demo7.txt","a");
 
-	
-
 	struct stat st;
-
 	stat("demo11.txt", &st);
   	n=st.st_size;
 	printf("\nappend %d \n",n);
-
 
 	if(n<1024)
 	{
 		fread(c,1,n,fp1);
 		fwrite(c,1,n,fp2);
-
-
 	}
 	else
 	{
 		n1=1024;
 		while(n/1024)
 		{
-			
 			fread(c,n1,1,fp1);
 			n2=strlen(c);
 			n2=n2-6;
@@ -129,16 +119,10 @@ void append()
 			n=n-1024;
 		}
 		fgets(c,n,fp1);
-		
 		fputs(c,fp2);
-		
-		
-		
 	}
-
 	fclose(fp1);
 	fclose(fp2);
-
 }
 
 void moveto1()
@@ -150,34 +134,25 @@ void moveto1()
   	if ((fp1 = fopen("demo7.txt","r")) == NULL)
 	{
        		printf("Erro! opening file");
-
      	}
 	
 	fp2=fopen("demo11.txt","w");
-
 	
-
 	struct stat st;
-
 	stat("demo7.txt", &st);
   	n=st.st_size;
 	printf("\nmove %d \n",n);
 	
-
 	if(n<1024)
 	{
 		fread(c,1,n,fp1);
 		fwrite(c,1,n,fp2);
-
-
 	}
 	else
 	{
-		
 		n1=1024;
 		while(n/1024)
 		{
-			
 			fread(c,n1,1,fp1);
 			n2=strlen(c);
 			n2=n2-6;
@@ -190,10 +165,8 @@ void moveto1()
 		fgets(c,n,fp1);
 		fputs(c,fp2);
 	}
-
 	fclose(fp1);
 	fclose(fp2);
-
 }
 void rev(char c[])
 {
@@ -201,44 +174,28 @@ void rev(char c[])
 	int n,n1;
 	int i,j;
 	char t;
-	
-
 	i=0;
-
 	
-	
-
 	n=strlen(c);
 	n=n-6;
 	c[n]='\0';
 	n=n-1;
-
-	
-	
 	
 	while(i<n)
 	{
 		t=c[i];
 		c[i]=c[n];
 		c[n]=t;
-
 		i++;
 		n--;
 	}
-
-	//printf("\n");
-	//puts(c);
-
-	
-
 	
 	if(flag==0)
 	{
 		fp1=fopen("demo11.txt","w");
 		fputs(c,fp1);
 		fclose(fp1);
-		flag=1;
-		
+		flag=1;	
 	}
 	
 	if(flag==1)
@@ -247,19 +204,12 @@ void rev(char c[])
 		fputs(c,fp2);
 		fclose(fp2);
 		append();
-		moveto1();
-		
+		moveto1();	
 	}	
-	
-		
-	//fclose(fp1);
-	
-	
 }
 
 int main()
 {
-
 	int n,n1,s;
   	 FILE *fp;
  	char c[1024];
@@ -267,41 +217,31 @@ int main()
   	if ((fp = fopen("demo2.txt","r")) == NULL)
 	{
        		printf("Erro! opening file");
-
      	}
 
-	
-
 	struct stat st;
-
 	stat("demo2.txt", &st);
   	n=st.st_size;
 	printf("%d",n);
-	
 	s=1;
 
 	if(n<1024)
 	{
 		fread(c,1,n,fp);
 		rev(c);
-
 	}
 	else
 	{
 		n1=1024;
 		while(n/1024)
 		{
-			
 				fread(c,n1,1,fp);
 				rev(c);
-				n=n-1024;
-					
+				n=n-1024;			
 		}
 	}
-		
 		fgets(c,n,fp);
 		rev(c);
-	
 	
 	fclose(fp);
 	
