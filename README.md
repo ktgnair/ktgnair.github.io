@@ -1,4 +1,4 @@
- # Assignment No 1 : Reverse The Contents of an Input File.
+ Assignment No 1 : Reverse The Contents of an Input File.
 
 
 Lets say the input is something like this
@@ -53,7 +53,7 @@ int main()
 }
 ```
 
-+ **APPROACH 2**
+> **APPROACH 2**
 
 The next thought that came into my mind was to use 2 files
 In that method i was taking a small chunk of data, reversing it and storing it in the second file.
@@ -250,7 +250,7 @@ int main()
 
 ```
 
-+ **APPROACH 3** 
+> **APPROACH 3** 
 
 After two failure I started thinking the problem as some puzzle and was able to come up with a solution that is _**Tower of Hanoi**_ problem.  
 So with that as my approach i planned on using 3 files of which one is the input file and the next two are for data swapping.
@@ -314,7 +314,7 @@ So the **Output** is data from File 2 - cba
 This method worked fine but was very hectic process.  
 This also ended up as a faluire
 
-+ **APPROACH 4** 
+> **APPROACH 4** 
 
 After three successive failures came a solution which stood out till the last
 
