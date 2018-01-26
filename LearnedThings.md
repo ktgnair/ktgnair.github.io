@@ -72,3 +72,5 @@ SEEK_END : It denotes end of the file.
 SEEK_SET : It denotes starting of the file.  
 SEEK_CUR : It denotes file pointer’s current position.    
 
+For creating temporary file when doing my final approach i used sprintf() so that i can get different file name sequentially.
+
