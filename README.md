@@ -33,49 +33,67 @@ i.e. for
          		    dlrow olleh"	
 
 + APPROACH 3 
-After two failure I started thinking the problem as some puzzle and was able to come up with a solution that is Tower of Honoi problem.
 
-So with that as my approach i planned on using 3 files of which one is the input file and the next two are for swapping.
+After two failure I started thinking the problem as some puzzle and was able to come up with a solution that is _**Tower of Hanoi**_ problem.  
+So with that as my approach i planned on using 3 files of which one is the input file and the next two are for data swapping.
 
 This method can be explained best with an example
 
-
 Step 1
-File 1(Input File) | File 2 | File 3
------------------- | ------ | ------
-	a | a | b
-	b |		
-	c |
+
+| File 1(Input File) | File 2 | File 3 |
+| ------------------- | ------ | ------ |
+| a | a | b |
+| b |   |   |
+| c |   |   |
+
+
 Step 2
-File 1(Input File)	File 2	File 3 (Append a to file 3)
-	a			b
-	b			a
-	c
+
+| File 1(Input File) | File 2 | File 3 |
+| ------------------ | ------ | ------ |
+| a |   | b |
+| b |   | a |
+| c |   |   |
+
+
 Step 3
-File 1(Input File)	File 2	File 3 (Move to file 2)
-	a		b	
-	b		a	
-	c
+
+| File 1(Input File) | File 2 | File 3 |
+| ------------------ | ------ | ------ |
+| a | b |   |
+| b | a |   |
+| c |   |   |
+
+
 Step 4
-File 1(Input File)	File 2	File 3 (New data in file 3)
-	a		b	c
-	b		a
-	c	
+
+| File 1(Input File) | File 2 | File 3 |
+| ------------------ | ------ | ------ |
+| a | b | c |
+| b | a |   |
+| c |   |   |
+
 Step 5
-File 1(Input File)	File 2	File 3 (Append file 2 to file 3)
-	a			c
-	b			b
-	c 			a
+
+| File 1(Input File) | File 2 | File 3 |
+| ------------------ | ------ | ------ |
+| a |  | c |
+| b |  | b |
+| c |  | a |
+
+
 Step 6
-File 1(Input File)	File 2	File 3 (Move to file 2)
-	a		c	
-	b		b
-	c		a
 
+| File 1(Input File) | File 2 | File 3 |
+| ------------------ | ------ | ------ |
+| a | c |  |
+| b | b |  |
+| c | a |  |
 
-So Output can be data from file 2 - cba
+So the **Output** is data from File 2 - cba
 
-This method worked fine but was very hectic process.
+This method worked fine but was very hectic process.  
 This also ended up as a faluire
 
 + APPROACH 4 
