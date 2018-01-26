@@ -40,4 +40,31 @@ So if you have a 1gb file and you need to generate a 5 gb file just type this
 
 > cat 1gb.txt 1gb.txt 1gb.txt 1gb.txt 1gb.txt > 5gb.txt
 
+The next thing is finding the size of input file
 
+Use stat function as used below
+
+```c
+#include <stdio.h>
+#include <sys/stat.h>
+
+int main()
+{
+    FILE *fp=NULL;
+    long int size=0;
+    int i,n;
+    
+    fp=fopen("1gb.txt","w");
+    
+    for(i=0;i<=9999990;i++)
+        fputs("1 my name is krishna 2 my name is gautham 3 my name is abhilash 4 my name is swapnil",fp);
+
+    fclose(fp); 
+    
+    struct stat st;
+	stat("1gb.txt", &st);
+  	n=st.st_size;
+	printf("%d",n);   
+    return 0;
+}
+```
