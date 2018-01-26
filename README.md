@@ -443,4 +443,112 @@ int main()
 	return 0;	
 }
 ```
-The above source code seems good as compared to my other approches but its not efficient.
+The above source code seems good as compared to my other approches but its not efficient.  
+My mentor suggested me some tricks to make it efficient such as making the reverse function short, avoiding the duplication of code in main() just after while loop the next 3 lines of operation are already been done in the while loop.  
+
+So after those changes the final code which he approved looked something like this
+
+```c
+#include<stdio.h>
+#include<string.h>
+#include <sys/stat.h>
+#include<errno.h>
+
+int temp_file_num = 0;
+
+void reverse_buffer(char buffer[])
+{
+	FILE *write_file_pointer = NULL;	
+	int i=0,j=0;
+	char temp_file[15] = {NULL},rev_buffer[3999990]={NULL};
+	
+	for(i=0,j= strlen(buffer)-1 ; j >= 0 ; i++,j--)
+	rev_buffer[i]=buffer[j];
+	
+	sprintf(temp_file,"%d.txt",temp_file_num++);		//generate temp file name.
+	write_file_pointer = fopen(temp_file,"w");		//creating temp file.
+	fputs(rev_buffer,write_file_pointer);			//writing buffer to temp file.
+	fclose(write_file_pointer);				//close temp file.
+}
+
+void file_append(int temp_file_num)
+{
+	FILE *read_file_pointer = NULL,*write_file_pointer = NULL;
+	char temp_file[11] = {NULL};
+	char buffer[3999990] = {NULL};
+	int file_size = 0;
+	
+	sprintf(temp_file,"%d.txt",temp_file_num);
+	write_file_pointer = fopen("output1.txt","a");			//opening output file in append mode
+	read_file_pointer = fopen(temp_file,"r");			//opening temp file to read data
+	
+	fread(buffer, 3999990 , 1 , read_file_pointer);			//reading chunk 
+	buffer[3999990]='\0';
+	   
+	fputs(buffer,write_file_pointer);				//appending to ouput file.
+		
+	fclose(read_file_pointer);
+
+	fclose(write_file_pointer);
+}
+void file_delete(int temp_file_num)			
+{
+	char temp_file[11]={NULL};
+	
+	sprintf(temp_file,"%d.txt",temp_file_num);
+	unlink(temp_file);
+}
+
+int main()
+{
+	long file_size=0,index=0,n=0;
+	FILE *file_pointer=NULL, *read_file_pointer=NULL;
+	char buffer[3999990]={NULL};
+	char temp_file[15]={NULL};
+
+  	file_pointer = fopen("1gb.txt","r");
+	
+	struct stat file_info;
+	stat("1gb.txt", &file_info);
+  	file_size=file_info.st_size;
+	printf("Size of input file: %ld\n",file_size);		//retriving input file size.
+	
+	n= 3999990 % file_size;
+		
+        do			//reading input file chunk by chunk file.
+	{
+             fread(buffer,n,1,file_pointer);
+	     reverse_buffer(buffer);
+	     file_size=file_size-n;
+	     n=3999990;
+
+	 }while(file_size>0);
+
+	fclose(file_pointer);
+	
+	file_pointer = NULL;
+	file_pointer = fopen("output1.txt","w");
+
+	sprintf(temp_file,"%d.txt",temp_file_num - 1);		//retriving filename.
+	read_file_pointer = fopen(temp_file,"r");		//open that temp file in read mode.
+
+	stat(temp_file, &file_info);
+  	file_size = file_info.st_size;				//retriving file size.
+
+	fread(buffer, file_size , 1 , read_file_pointer);	//read in buffer
+  	buffer[file_size]='\0';
+
+	fputs(buffer, file_pointer);				//write to ouput file.
+	
+	fclose(file_pointer);
+	fclose(read_file_pointer);				//closing opened files.
+
+	for(index = temp_file_num - 2 ; index >=0 ; index--)	//for appending
+	file_append(index);
+
+	for(index = temp_file_num - 1 ; index >=0 ; index--)	//for deleting files
+	file_delete(index);
+
+	return 0;	
+}
+```
