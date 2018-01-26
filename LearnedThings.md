@@ -59,3 +59,6 @@ int main()
     return 0;
 }
 ```
+One way of doing that is using UNIX command which is shown in the below block  
+> ls -l filename
+
