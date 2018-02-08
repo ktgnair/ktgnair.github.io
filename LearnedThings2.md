@@ -78,4 +78,6 @@ And also gives you a warning as this
 
 > No configuration found Configuring ehcache from ehcache-failsafe.xml  found in the classpath: //...
 
+Final Test Case:  
+After completing the code on running it, it took me 13 seconds for 50mb file and 240 seconds for 1gb file.
 
