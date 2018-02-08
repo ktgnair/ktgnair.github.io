@@ -23,4 +23,21 @@ Now lets speak about cache memory
 6. Cache memory is stored in SRAM and main memory in DRAM.  
 7. SRAM is expensive as compared to DRAM because SRAM uses 6 transistors while DRAM has only 1 transistors.   
 
+Ehcache library  
+
+Ehcache is an open-source standard cache for boosting performance.  
+
+It is the most widely used java based cache.  
+
+Now i will tell you why i used Ehcache for my Assignment 2 when i could have used Collections.  
+
+> In Ehcache we can limit the maximum element a cache can have as well as how much memory a cache can consume.  
+
+> If it reaches the limit then Ehcache has the algorithms such as LRU,LFU etc to clean itself. (Which is not possible in Map or HashMap interfaces, We have to add those functionality explicitly).
+
+> Ehcache provides the functionality of when the memory cache exceeds a certain limit then overflowing to the disk is possible.  
+
+> In Ehcache suppose the system crashes or goes into unplanned shutdowm then the data will stay persistant.
+
+
 
