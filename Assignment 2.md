@@ -298,6 +298,5 @@ public class word {
 }
 
 ```
-
   
 Check out **[My Experience](https://ktgnair.github.io/LearnedThings2)** for information about cache and Ehcache configuration.  
