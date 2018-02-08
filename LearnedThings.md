@@ -78,4 +78,3 @@ When i had finished coding i realized that making the code in a readable format 
 + So to make that happen i changed the names of the variables from my code like for example int n was changed to int file_size because the variables actual function is to store the file size.  
 
 + Next is to avoid all unwanted tabs, spaces.
-
