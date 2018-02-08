@@ -1,4 +1,4 @@
- **[Assignment 1](https://ktgnair.github.io/) / [My Experience](https://ktgnair.github.io/LearnedThings)**
+ **[Assignment 1](https://ktgnair.github.io/) / [Assignment 2](https://ktgnair.github.io/Assignment 2)**
  
  **PROGRAM NO 1**
  
