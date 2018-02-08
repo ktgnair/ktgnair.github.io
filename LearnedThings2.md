@@ -62,17 +62,6 @@ There are two xml files that need to be included in your program those are pom.x
 <ehcache xsi:noNamespaceSchemaLocation="ehcache.xsd" updateCheck="true" monitoring="autodetect" dynamicConfig="true">
 <diskStore path="java.io.tmpdir"/>
 
-	 <defaultCache
-            maxElementsInMemory="10000"
-            eternal="false"
-            timeToIdleSeconds="120"
-            timeToLiveSeconds="120"
-            maxElementsOnDisk="10000000"
-            diskExpiryThreadIntervalSeconds="120"
-            memoryStoreEvictionPolicy="LRU">
-        <persistence strategy="localTempSwap"/>
-    </defaultCache>
-
 	<cache name="mycache1"
 		maxEntriesLocalHeap="10000"
 		maxEntriesLocalDisk="100000"
@@ -84,5 +73,9 @@ There are two xml files that need to be included in your program those are pom.x
 </ehcache>
  
 ```
+While configuring the ehcache make sure you place the .xml file in right path or else it will take the default failsafe xml file.  
+And also gives you a warning as this  
+
+> No configuration found Configuring ehcache from ehcache-failsafe.xml  found in the classpath: //...
 
 
