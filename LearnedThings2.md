@@ -15,9 +15,9 @@ Now lets speak about cache memory
 1. Its a high speed memory to increase the speed of processing of the CPU.  
 2. Main function of cache memory is to store the copy of frequently used program or data.  
 3. There are 3 levels of cache  
-  *Level 1  
-  *Level 2  
-  *Level 3  
+  * Level 1  
+  * Level 2  
+  * Level 3  
 4. Level 1 and Level 2 are stored in CPU and Level 3 is stored in motherboard.  
 5. Capacity wise Level 1 has smallest capacity say 2-64KB, then Level 2 256-512KB and the last Lvel 3 has the highest that is 1-8MB.  
 6. Cache memory is stored in SRAM and main memory in DRAM.  
