@@ -39,5 +39,50 @@ Now i will tell you why i used Ehcache for my Assignment 2 when i could have use
 
 > In Ehcache suppose the system crashes or goes into unplanned shutdowm then the data will stay persistant.
 
+For Configuring Ehcache using Maven Dependency Which i used(Another way is using gradle)  
+
+There are two xml files that need to be included in your program those are pom.xml and ehcache.xml  
+
+> pom.xml  
+
+```xml
+<dependency>
+	<groupid>net.sf.ehcache</groupid>
+	<artifactid>EHcache</artifactid>
+	<version>2.10.4</version>
+</dependency>
+
+```
+   
+> ehcache.xml  
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ehcache xsi:noNamespaceSchemaLocation="ehcache.xsd" updateCheck="true" monitoring="autodetect" dynamicConfig="true">
+<diskStore path="java.io.tmpdir"/>
+
+	 <defaultCache
+            maxElementsInMemory="10000"
+            eternal="false"
+            timeToIdleSeconds="120"
+            timeToLiveSeconds="120"
+            maxElementsOnDisk="10000000"
+            diskExpiryThreadIntervalSeconds="120"
+            memoryStoreEvictionPolicy="LRU">
+        <persistence strategy="localTempSwap"/>
+    </defaultCache>
+
+	<cache name="mycache1"
+		maxEntriesLocalHeap="10000"
+		maxEntriesLocalDisk="100000"
+		overflowToDisk="false"
+		eternal="true"
+		diskSpoolBufferSizeMB="20">
+	</cache>
+
+</ehcache>
+ 
+```
 
 
