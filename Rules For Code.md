@@ -8,17 +8,17 @@
 > **Variable Name**  
 
 While writing the code most of the times we just blankly do the coding without any proper names given to the variables.
-But in real world you need to make sure that you follow some rules.
+But in real world you need to make sure that you follow some rules.  
 Which might be those is what you might be thinking, so let me tell you nothing major just some basic points like
 
-The variable names should be valid to the point.
-Eg: For holding the name of company the variable name that should be defined can be simply “name” that is the variable declaration:
-String name (is valid for the class Company.)
+The variable names should be valid to the point.  
+Eg: For holding the name of company the variable name that should be defined can be simply “name” that is the variable declaration:  
+String name (is valid for the class Company.)  
 
-But String “companyname” is not. Because since we are creating a class for Company it’s obvious that the name variable defined in the scope of the class company contains the name of the company.
+But String “companyname” is not. Because since we are creating a class for Company it’s obvious that the name variable defined in the scope of the class company contains the name of the company.  
 
-And the next thing is
-The variable names should be in Camel-Case :
+And the next thing is  
+The variable names should be in Camel-Case :  
 Eg: ‘errorCode’ is valid. 
     But errorcode, ErrorCode and Errorcode are invalid.
 
@@ -52,35 +52,35 @@ If you didn't understand the above statement please feel free to have a look in 
 
 (It's the right way)                                   
 import com.krishagni.CRM.rest.Company;                     
-import com.krishagni.CRM.rest.Factory;
-import com.krishagni.CRM.rest.Dao.CompanyDao;
+import com.krishagni.CRM.rest.Factory;  
+import com.krishagni.CRM.rest.Dao.CompanyDao;  
 
-(Its not)
-import com.krishagni.CRM.rest.Company;
+(Its not)   
+import com.krishagni.CRM.rest.Company;  
 
-import com.krishagni.CRM.rest.Factory;
-import com.krishagni.CRM.rest.Dao.CompanyDao;
+import com.krishagni.CRM.rest.Factory;  
+import com.krishagni.CRM.rest.Dao.CompanyDao;  
 
-* Curly Braces
+* Curly Braces  
 
-The curly braces used in any Class, Method, Loops and Statements should be in proper format for enhancing the readability of the code.
-Eg: 
+The curly braces used in any Class, Method, Loops and Statements should be in proper format for enhancing the readability of the code.  
+Eg:  
 
 ```java
 public CompanyDao getDao() {
     return dao;
 }
 ```
-It should not be like this one below because eventhough it might seem sweeter  believe me  it's not.
+It should not be like this one below because eventhough it might seem sweeter  believe me  it's not.  
 ```java
 public CompanyDao getDao() 
 {
         return dao;
 }
 ```
-* Alignment
+* Alignment  
 
-1. The code must be aligned in the proper way keeping 4 spaces before any method or variables.
+1. The code must be aligned in the proper way keeping 4 spaces before any method or variables.  
 
 *Code with Proper alignment*
 ```java 
@@ -94,42 +94,42 @@ public class Company {
 }
 ```
 
-2. There should be proper spacing before and after an operator.
+2. There should be proper spacing before and after an operator.  
 
-Like:
+Like:  
 int name = 10; 
 
-Unlike:
+Unlike:  
     int name=10;
 
-* Remove unwanted Spaces
+* Remove unwanted Spaces  
 
-Spaces which are not needed should not be used, the code should be kept in compact size and in readable format.
+Spaces which are not needed should not be used, the code should be kept in compact size and in readable format.  
 
-* Line Length
+* Line Length  
 
-Maximum characters in a line should not be more than 120.
+Maximum characters in a line should not be more than 120.  
 
 > **XML, HTML Indentation**
 
-Before every tag two spaces need to be given to make it in standard format.
+Before every tag two spaces need to be given to make it in standard format.  
 
-Like:
+Like:  
 <bean id = "dao" class = "com.krishagni.CRM.rest.Dao.CompanyDaoImpl">
   <property name = "sessionFactory" ref = "sessionFactory"> </property>
 </bean>
 
-Unlike:
+Unlike:  
 <bean id = "dao" class = "com.krishagni.CRM.rest.Dao.CompanyDaoImpl">
         <property name="sessionFactory" ref = "sessionFactory"></property>
 </bean>
 
 > **Database**
 
-While integrating the hibernate file with database the database name, table name, column name need to be in upper-case so that it can be differentiated with java object properties.  
+While integrating the hibernate file with database the database name, table name, column name need to be in upper-case so that it can be differentiated with java object properties.   
 
-Something like this 
+Something like this   
     <id name = "id" type = "int">
               <column name = "ID" />
             </id>
-Which helps us understand that id (java object property) is different from ID (Database column name)
+Which helps us understand that id (java object property) is different from ID (Database column name)  
