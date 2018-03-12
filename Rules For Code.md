@@ -115,14 +115,18 @@ Maximum characters in a line should not be more than 120.
 Before every tag two spaces need to be given to make it in standard format.  
 
 Like:  
+```
 <bean id = "dao" class = "com.krishagni.CRM.rest.Dao.CompanyDaoImpl">
   <property name = "sessionFactory" ref = "sessionFactory"> </property>
 </bean>
+```
 
 Unlike:  
+```
 <bean id = "dao" class = "com.krishagni.CRM.rest.Dao.CompanyDaoImpl">
         <property name="sessionFactory" ref = "sessionFactory"></property>
 </bean>
+```
 
 > **Database**
 
