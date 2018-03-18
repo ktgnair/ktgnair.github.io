@@ -1,8 +1,8 @@
  **[Assignment 1](https://ktgnair.github.io/) / [Assignment 2](https://ktgnair.github.io/Assignment 2) / [Git Tutorials](https://ktgnair.github.io/Basic Github) / [Rules For Code](https://ktgnair.github.io/Rules For Code)**  
 
- ## Git Tutorials (_A basic tutorial for people who are new to 'git'_)
+ **Git Tutorials (_A basic tutorial for people who are new to 'git'_)**  
 
-### Something about git before starting to implement it :smirk:  
+### Something about git before starting to implement it.    
 
 Git is great opensource platform to share the code and to make sure that your code is not lost.  
 
@@ -89,14 +89,10 @@ git status
 The output will be  
 ```
 On branch master
-
 Initial commit
-
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-
 	gitDemo.txt
-
 nothing added to commit but untracked files present (use "git add" to track)
 ```  
 
@@ -107,8 +103,8 @@ As you can see that the status tells you to add the file.
   - Second commit the added files and  
   - Third is to push the files. 
   
- :pushpin: _Commit_ means the files are saved in your local directory but not on your git account.  
- :pushpin: _Push_ means to save in the server(your git account).  
+ _Commit_ means the files are saved in your local directory but not on your git account.  
+ _Push_ means to save in the server(your git account).  
 
 Step 7:   
 
@@ -121,15 +117,12 @@ git add gitDemo.txt
 ```
 git status
 ```
-The difference:
+The difference:  
 ```
 On branch master
-
 Initial commit
-
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
-
 	new file:   gitDemo.txt
 ```  
 
@@ -160,7 +153,6 @@ It shows you all the commits you have made so far
 commit 7c9371114c1e86503ad5b5ad975f255ccd60034b
 Author: <your github account> <emailid@gmail.com>
 Date:   Fri Mar 18 14:39:52 2018 +0530
-
     Testing Git
 ```  
 Step 9:  
@@ -204,9 +196,7 @@ Your branch is up-to-date with 'origin/master'.
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
-
 	modified:   gitDemo.txt
- 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```  
 - Now type this command and see the result.  
@@ -243,7 +233,6 @@ On branch master
 Your branch is up-to-date with 'origin/master'.
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
-
 	deleted:    SecondFile.txt
 ```  
 ```
@@ -469,5 +458,5 @@ All the commit messages you have made so far in a new branch will be attached in
 git merge --squash branchname --
 ```  
 
-As promised you will be able to perform basic git operations nicely after this bolg.   :sparkles:  
+As promised you will be able to perform basic git operations nicely after this blog.    
 If you liked my blog then make sure you follow me so that you get notifications for some more good contents which i will be writing in future.  
