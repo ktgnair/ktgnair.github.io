@@ -37,18 +37,20 @@ After doing step 2 do this to check whether our git has been porperly installed 
 The command is   
 ```
 git --version
-```
+```  
 The output will show the installed version of git.  
 ```
 git version 2.11.0
-```
+```  
 
 Step 4:  
 
 Create your own local clone of a repository.   
 - Go to your directory where you want to clone.  
 For me it was this  
-> cd Documents/Demo/  
+```
+cd Documents/Demo/
+```  
 
 - After going in the directory type this to clone  
 ```
@@ -66,18 +68,18 @@ Step 5:
 
 - Switch to your newly created directory i.e ~/Documents/Demo/TestingGit  
 
-- Create an empty file for testing purpose.      
+- Create an empty file for testing purpose.  
 ```
 gedit gitDemo.txt
 ```  
 
 - Write some content into the text file and save it.  
 
-- Type this command
+- Type this command  
 ```
 ls
 ```  
-and you will be able to see all the files in your directory.
+and you will be able to see all the files in your directory.  
 
 Step 6:  
 
@@ -85,7 +87,7 @@ To know the status of the branch you are working on.
 
 ```
 git status
-```
+```  
 The output will be  
 ```
 On branch master
@@ -99,24 +101,24 @@ nothing added to commit but untracked files present (use "git add" to track)
 As you can see that the status tells you to add the file.  
 
 - So the 3 basic things in git is to:    
-  - First add files, 
-  - Second commit the added files and  
-  - Third is to push the files. 
+  - First add files,  
+  - Second commit the added files and   
+  - Third is to push the files.  
   
- _Commit_ means the files are saved in your local directory but not on your git account.  
- _Push_ means to save in the server(your git account).  
+ **_Commit_** means the files are saved in your local directory but not on your git account.  
+ **_Push_** means to save in the server(your git account).  
 
 Step 7:   
 
-Add your file using this command
+Add your file using this command  
 ```
 git add gitDemo.txt
 ```  
 
-- Now again check the status and see the difference
+- Now again check the status and see the difference  
 ```
 git status
-```
+```  
 The difference:  
 ```
 On branch master
@@ -128,10 +130,10 @@ Changes to be committed:
 
 Step 8:  
 
-- Commiting the files which are added.
+- Commiting the files which are added.  
 ```
 git commit
-```  
+```   
 Write commit message Testing Git in vi editor then press Ctrl + x, then y for save and press Enter on your keyboard.  
 ```
 Testing Git
@@ -144,11 +146,11 @@ Testing Git
 git status
 ```  
 
-- Now type 
+- Now type  
 ```
 git log
-``` 
-It shows you all the commits you have made so far
+```  
+It shows you all the commits you have made so far  
 ```
 commit 7c9371114c1e86503ad5b5ad975f255ccd60034b
 Author: <your github account> <emailid@gmail.com>
@@ -181,11 +183,13 @@ Step 10:
 - And type  
 ```
 ls
-```
-The total three files in your directory is listed here
+```  
+
+The total three files in your directory is listed here  
+
 ```
 gitDemo.txt  SecondFile.txt  ThirdFile.txt
-```  
+```   
 - After creating open one of the created files, make changes into that and save it.  
 ```
 gedit gitDemo.txt
@@ -252,7 +256,7 @@ Write commit message Deleted in vi editor then press Ctrl + x, then y for save a
 [master f1b0591] Deleted
  1 file changed, 2 deletions(-)
  delete mode 100644 SecondFile.txt
-```
+```  
 ```
 git push
 ```  
@@ -280,7 +284,7 @@ The new file is present in your github account but not in your local directory, 
 The command is  
 ```
 git pull
-```  
+```    
 
 ```
 remote: Counting objects: 3, done.
@@ -300,7 +304,7 @@ Fast-forward
 
 ```
 ForPull.txt  gitDemo.txt  ThirdFile.txt
-``` 
+```  
 
 Step 12:  
 
@@ -321,7 +325,7 @@ Usually while doing a project the files are saved on different branches and afte
 
 ```
 git checkout -b New_Branch
-``` 
+```  
 
 ```
 Switched to a new branch 'New_Branch'
@@ -375,7 +379,7 @@ You will notice that i used -m "Branch commit". This is to write the commit mess
 ```  
 ```
 git status
-```
+```  
 ```
 On branch New_Branch
 nothing to commit, working tree clean
@@ -396,7 +400,7 @@ Writing objects: 100% (3/3), 362 bytes | 0 bytes/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/<your account name>/TestingGit.git
  * [new branch]      New_Branch -> New_Branch
-```  
+```   
 
 Step 13:  
 
@@ -406,14 +410,17 @@ To merge to master.
 ```
 git checkout master
 ```  
+
 ```
 Switched to branch 'master'
 Your branch is up-to-date with 'origin/master'.
-```  
+```   
+
 - Check whether you have switched to master.  
 ```
 git branch
-```
+```  
+
 ```
 New_Branch
 * master
@@ -473,7 +480,7 @@ git branch
 - Now to delete a branch from the github account.  
 ```
 git push  origin --delete New_Branch
-```
+```  
 
 ```  
 Username for 'https://github.com': <your user name>
@@ -484,11 +491,11 @@ To https://github.com/<your account name>/TestingGit.git
 
 Step 15:  
 
-- Multiple commits into single commit
+- Multiple commits into single commit  
 All the commit messages you have made so far in a new branch will be attached in the master while performing merge, so to remove those unnecessary commit messages and just putting one message we use this.  
 ```
 git merge --squash branchname --Your message
 ```  
 
-As promised you will be able to perform basic git operations nicely after this blog.    
+As promised you will be able to perform basic git operations nicely after this blog.      
 If you liked my blog then make sure you follow me so that you get notifications for some more good contents which i will be writing in future.  
