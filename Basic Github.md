@@ -334,7 +334,7 @@ ls
 ```
 ForPull.txt  gitDemo.txt  ThirdFile.txt
 ```  
-What how did i get these files here when i had pushed it in master?
+What how did i get these files here when i had pushed it in master?  
 **ANSWER:** Since the branch is created from master so all the files in master is automatically here in this branch.  
 
 - Now create a file in this branch, add some content and save it.  
