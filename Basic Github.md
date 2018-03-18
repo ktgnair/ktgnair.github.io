@@ -474,14 +474,13 @@ Deleted branch New_Branch (was 9045454).
 git branch
 ```  
 ```
-* master
+*master
 ```  
 
 - Now to delete a branch from the github account.  
 ```
 git push  origin --delete New_Branch
 ```  
-
 ```  
 Username for 'https://github.com': <your user name>
 Password for 'https://abc@github.com': 
