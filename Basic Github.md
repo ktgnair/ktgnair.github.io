@@ -158,10 +158,13 @@ Date:   Fri Mar 18 14:39:52 2018 +0530
 Step 9:  
 
 - Push the files into your git account.  
+
 ```
 git push
 ```  
+
 - It will ask for your github username and password(it is what you created at step 1).  
+
 ```
 Username for 'https://github.com': <your user name>
 Password for 'https://abc@github.com': 
@@ -171,6 +174,7 @@ Total 1 (delta 0), reused 0 (delta 0)
 To https://github.com/<your account name>/TestingGit.git
  * [new branch]      master -> master
  ```  
+ 
 Step 10:  
 
 - Now create more 2 files and perform the last three steps again to practice.  
@@ -189,7 +193,8 @@ gedit gitDemo.txt
 - See the status.  
 ```
 git status
-```
+```  
+
 ```
 On branch master
 Your branch is up-to-date with 'origin/master'.
@@ -199,11 +204,13 @@ Changes not staged for commit:
 	modified:   gitDemo.txt
 no changes added to commit (use "git add" and/or "git commit -a")
 ```  
+
 - Now type this command and see the result.  
 ```
 git diff
 ```  
-Result  :grinning:  
+Result  
+
 ```
 diff --git a/gitDemo.txt b/gitDemo.txt
 index df72b36..0eef335 100645
@@ -228,6 +235,7 @@ rm 'SecondFile.txt'
 ```
 git status
 ```   
+
 ```
 On branch master
 Your branch is up-to-date with 'origin/master'.
@@ -239,6 +247,7 @@ Changes to be committed:
 git commit
 ```  
 Write commit message Deleted in vi editor then press Ctrl + x, then y for save and press Enter on your keyboard.  
+
 ```
 [master f1b0591] Deleted
  1 file changed, 2 deletions(-)
@@ -247,6 +256,7 @@ Write commit message Deleted in vi editor then press Ctrl + x, then y for save a
 ```
 git push
 ```  
+
 ```
 Username for 'https://github.com': <your user name>
 Password for 'https://abc@github.com': 
@@ -271,6 +281,7 @@ The command is
 ```
 git pull
 ```  
+
 ```
 remote: Counting objects: 3, done.
 remote: Compressing objects: 100% (2/2), done.
@@ -284,31 +295,39 @@ Fast-forward
  1 file changed, 1 insertion(+)
  create mode 100644 ForPullDemo.txt
 ```  
+
 - Now see the files in your directory by using 'ls', you will see something like this.  
+
 ```
 ForPull.txt  gitDemo.txt  ThirdFile.txt
-```  
+``` 
+
 Step 12:  
 
 To Create a new branch in git.  
-- Before creating a branch just type this in your terminal
+- Before creating a branch just type this in your terminal  
+
 ```
 git branch
 ```  
 You will see that something like this is displayed on your terminal  
+
 ```
 * master
 ```  
 This is because you are on master branch i.e main branch, there is no other branches available so whenever we create a file on git it is saved on master.  
 Usually while doing a project the files are saved on different branches and after everything is finalized those files are merged on the master, so in-short the master branch has files without any garbage.  
 - Now that you all are aware of what master is and what is the use of creating a new branch, we will create one.  
+
 ```
 git checkout -b New_Branch
-```    
+``` 
+
 ```
 Switched to a new branch 'New_Branch'
 ```  
-Now we are in the New_Branch.
+Now we are in the New_Branch.  
+
 ```
 git branch
 ```  
@@ -316,21 +335,26 @@ git branch
 * New_Branch
   master
 ```  
-- Checkout if there are any files in your this branch.
+- Checkout if there are any files in your this branch.  
+
 ```
 ls
 ```  
+
 ```
 ForPull.txt  gitDemo.txt  ThirdFile.txt
 ```  
+
 What how did i get these files here when i had pushed it in master?  
 **ANSWER:** Since the branch is created from master so all the files in master is automatically here in this branch.  
 
 - Now create a file in this branch, add some content and save it.  
+
 ```
 gedit BranchDemo.txt
 ```  
 - Check the contents in the directory by using 'ls'.  
+
 ```  
 BranchDemo.txt  ForPullDemo.txt  gitDemo.txt  ThirdFile.txt
 ```  
@@ -342,7 +366,8 @@ git add BranchDemo.txt
 ```
 git commit -m "Branch commit"
 ```  
-You will notice that i used -m "Branch commit". This is to write the commit messages directly without going to vi editor which we were doing till now. 
+You will notice that i used -m "Branch commit". This is to write the commit messages directly without going to vi editor which we were doing till now.  
+
 ```
 [New_Branch 9045454] Branch commit
  1 file changed, 1 insertion(+)
@@ -356,9 +381,11 @@ On branch New_Branch
 nothing to commit, working tree clean
 ```  
 - To push the new branch files use this coomand which is different from the usual one.  
+
 ```
 git push origin New_Branch
-```
+```  
+
 ```
 Username for 'https://github.com': <your user name>
 Password for 'https://abc@github.com': 
@@ -370,6 +397,7 @@ Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/<your account name>/TestingGit.git
  * [new branch]      New_Branch -> New_Branch
 ```  
+
 Step 13:  
 
 To merge to master.  
@@ -417,6 +445,7 @@ BranchDemo.txt  ForPull.txt  readme.txt  ThirdFile.txt
 ```
 git push
 ```  
+
 ```
 Username for 'https://github.com': <your user name>
 Password for 'https://abc@github.com': 
@@ -424,6 +453,7 @@ Total 0 (delta 0), reused 0 (delta 0)
 To https://github.com/<your account mane>/TestingGit.git
    6520792..9045454  master -> master
 ```  
+
 Step 14:  
 
 - To delete a branch from local directory.  
@@ -444,18 +474,20 @@ git branch
 ```
 git push  origin --delete New_Branch
 ```
+
 ```  
 Username for 'https://github.com': <your user name>
 Password for 'https://abc@github.com': 
 To https://github.com/<your account name>/TestingGit.git
  - [deleted]         New_Branch
 ```  
+
 Step 15:  
 
 - Multiple commits into single commit
 All the commit messages you have made so far in a new branch will be attached in the master while performing merge, so to remove those unnecessary commit messages and just putting one message we use this.  
 ```
-git merge --squash branchname --
+git merge --squash branchname --Your message
 ```  
 
 As promised you will be able to perform basic git operations nicely after this blog.    
