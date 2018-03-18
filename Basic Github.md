@@ -473,8 +473,9 @@ Deleted branch New_Branch (was 9045454).
 ```
 git branch
 ```  
+
 ```
-*master
+* master
 ```  
 
 - Now to delete a branch from the github account.  
