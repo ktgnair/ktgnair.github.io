@@ -493,9 +493,21 @@ To https://github.com/<your account name>/TestingGit.git
 Step 15:  
 
 - Multiple commits into single commit  
-All the commit messages you have made so far in a new branch will be attached in the master while performing merge, so to remove those unnecessary commit messages and just putting one message we use this.  
+  - All the commit messages you have made so far in a new branch will be attached in the master while performing merge, so to remove those unnecessary commit messages and just putting one message we use this. You need to perform this by switching into your master branch.   
 ```
-git merge --squash branchname --Your message
+git merge --squash branchname  
+```  
+
+  - Then type  
+```
+git commit  
+```  
+
+  - This will open the editor which consists of all the commits you have made so far for that branch.Just delete those commits and write a new one which you want to get displayed.  
+  
+  - Don't forget to push.  
+```
+git push  
 ```  
 
 As promised you will be able to perform basic git operations nicely after this blog.      
