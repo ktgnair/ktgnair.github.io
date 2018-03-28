@@ -1,4 +1,4 @@
-**[Assignment 1](https://ktgnair.github.io/) / [My Experience](https://ktgnair.github.io/LearnedThings)**
+**[Assignment 1](https://ktgnair.github.io/Assignment 1) / [My Experience](https://ktgnair.github.io/LearnedThings)**
 
 Overall my experience while doing this assignment was challenging as well as great.
 
