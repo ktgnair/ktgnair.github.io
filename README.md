@@ -1,6 +1,6 @@
 **About Me:**  
 
-_Just the person who wants to share the knowledge he gained.  
+_Just a person who wants to share the knowledge he gained.  
 I decided to use GitHub Pages as this is the largest opensource community to do so._  
 
 
