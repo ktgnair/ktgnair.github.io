@@ -5,10 +5,10 @@ I decided to use GitHub Pages as this is the largest opensource community to do 
 
 So far i have written these  
 
-**[Assignment 1](https://ktgnair.github.io/Assignment 1)**  
+**[Assignment 1](https://ktgnair.github.io/Assignment 1)**  _Posted on 26th January 2018_  
 
-**[Assignment 2](https://ktgnair.github.io/Assignment 2)**  
+**[Assignment 2](https://ktgnair.github.io/Assignment 2)**  _Posted on 8th February 2018_  
 
-**[Git Tutorials](https://ktgnair.github.io/Basic Github)**  
+**[Rules For Code](https://ktgnair.github.io/Rules For Code)**  _Posted on 10th March 2018_  
 
-**[Rules For Code](https://ktgnair.github.io/Rules For Code)**
+**[Git Tutorials](https://ktgnair.github.io/Basic Github)** _Posted on 17th March 2018_  
