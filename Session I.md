@@ -3,12 +3,12 @@
 _**This is a tutorial to get you all started with basics of database using MYSQL.**_   
 
 Following are the topics which will be covered in this session    
-[x] Create a database  
-[x] Create table  
-[x] Insert records into the table  
-[x] Select query  
-[x] Where clause  
-[x] Using Wildcards  
+- [x] Create a database  
+- [x] Create table  
+- [x] Insert records into the table  
+- [x] Select query  
+- [x] Where clause  
+- [x] Using Wildcards  
 
 
 * Step 1: Create a database.  
