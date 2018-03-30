@@ -17,6 +17,8 @@ To create any powerfull database in mysql a simple line as shown below is used.
 create database TestDb;  
 ```  
 
+![Create DB](/images/db/createdatabase.png)
+
 Here TestDb is the name of the database.  
 After creating the database you need to type this  
 ```sql
