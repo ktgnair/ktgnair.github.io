@@ -11,7 +11,7 @@ Following are the topics which will be covered in this session
 - [x] Using Wildcards  
 
 
-* Step 1: Create a database.  
+<b>Step 1: Create a database.</b>  
 To create any powerfull database in mysql a simple line as shown below is used.  
 > ![Create DB](/images/db/createdb.png)
 
