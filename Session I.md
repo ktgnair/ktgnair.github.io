@@ -13,17 +13,12 @@ Following are the topics which will be covered in this session
 
 * Step 1: Create a database.  
 To create any powerfull database in mysql a simple line as shown below is used.  
-```sql  
-create database TestDb;  
-```  
-
-![Create DB](/images/db/createdatabase.png)
+> ![Create DB](/images/db/createdb.png)
 
 Here TestDb is the name of the database.  
 After creating the database you need to type this  
-```sql
-use TestDb;  
-```  
+
+
 to tell mysql that you are going to use this database.  
 
 * Step 2: Create table.  
