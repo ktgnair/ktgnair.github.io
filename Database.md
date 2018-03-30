@@ -6,8 +6,8 @@ _**This is a tutorial to get you all started with basics of database using MYSQL
 
 * Installation Guide  
 
-* Session I  
+* [Session I](https://ktgnair.github.io/Session I)  
 
-* Session II   
+* [Session II](https://ktgnair.github.io/Session II)   
 
-* Session III   
+* [Session III](https://ktgnair.github.io/Session III)   
