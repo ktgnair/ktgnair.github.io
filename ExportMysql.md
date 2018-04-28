@@ -2,11 +2,9 @@
 
 **How to transfer mysql database from localhost to remote server**  
 
-To understand how to do this **STEP 1** is to create a simple database(in my case its ClientManagement) and some tables with data in it.  
+To understand how to do this the first step is to create a simple database(in my case its ClientManagement) and some tables with data in it.  
 
-**STEP 2:**  
-
-> **FROM YOUR LOCALHOST**  
+> **FROM YOUR LOCALHOST**    
 
 * Now you need to create a backup file of your database which you want to copy to your remote server.  
 
