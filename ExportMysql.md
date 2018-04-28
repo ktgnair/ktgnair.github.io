@@ -1,4 +1,4 @@
-**[Assignment 1](https://ktgnair.github.io/) / [Assignment 2](https://ktgnair.github.io/Assignment 2) / [Git Tutorials](https://ktgnair.github.io/Basic Github) / [Rules For Code](https://ktgnair.github.io/Rules For Code) / [Database For Starters](http://ktgnair.github.io/Database)**   
+**[Home](https://ktgnair.github.io/) / [Assignment 1](https://ktgnair.github.io/Assignment 1) / [Assignment 2](https://ktgnair.github.io/Assignment 2) / [Git Tutorials](https://ktgnair.github.io/Basic Github) / [Database](https://ktgnair.github.io/Database)**  
 
 **How to transfer mysql database from localhost to remote server**  
 
