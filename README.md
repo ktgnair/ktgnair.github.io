@@ -16,3 +16,5 @@ So far i have written these
 **[Database](https://ktgnair.github.io/Database)** _Posted on 31th March 2018_  
 
 **[Export Mysql](http://ktgnair.github.io/ExportMysql)** _Posted on 28th April 2018_  
+
+**[How to disable root for ssh](http://ktgnair.github.io/DisableRoot)** _Posted on 6th May 2018_  
