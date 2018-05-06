@@ -10,9 +10,10 @@ Creating the new server will provide us the following
 * Username  
 * Password   
 
-> Using the details from the earlier step we log in from terminal   
+> Using the details from the earlier step we log in from terminal.   
+
 Syntax: ssh username@ipaddress   
-**Example:** ssh root@188.167.164.36
+**Example:** ssh root@188.167.164.36  
 
 It will ask you for a password(Type your password which was provided to you by Droplet and press Enter).  
 
@@ -22,6 +23,7 @@ Which leads to a message to change your current password
 * Re-type your new password.   
 
 > Create a new user  
+
 To create a new user type this command in your terminal  
 ```  
 useradd NewUserName  
@@ -43,6 +45,7 @@ Type the below line to get into the user directory i.e jenkins.
 ```  
 
 > Set password to your user.  
+
 * Go to root and type this   
 ```  
 [root@os ~]# passwd jenkins  
@@ -56,6 +59,7 @@ Retype new UNIX password:
 passwd: all authentication tokens updated successfully.  
 ```   
 > Sudo privileges to new user  
+
 Now to give sudo privileges to the newly created user i.e jenkins  
 * Go to your root user.  
 
@@ -65,13 +69,14 @@ Now to give sudo privileges to the newly created user i.e jenkins
 [root@os etc]$ vi sudoers  
 ```  
 In that file add the below line at the end of that file.  
-To add the line press Esc and i (for inserting inside a vi editor)  
+To add the line press Esc and i (for inserting inside a vi editor)   
 ```  
 jenkins ALL=(ALL)   ALL  
 ```  
 Press Esc and the save the file by pressing Shift :wq and Enter  
 
 > Try to login to your newly created user. (Below the process)  
+
 ```  
 [root@os ~]# ssh jenkins@ip_address  
 **Example:**  
@@ -85,10 +90,11 @@ But our main task is to disable the root so that you can access this server usin
 
 Now switch back to your root from the newly created user  
 ```  
-[jenkins@os ~]$ su -
+[jenkins@os ~]$ su -  
 Password:(type your root [password)  
 ```   
 > To disable the root ssh login.  
+
 * Go inside the folder ssh which is located inside etc.  
 ```  
 [root@os ~]# cd /etc/ssh  
@@ -98,7 +104,7 @@ Open a file named sshd_config using vi editor.
 vi sshd_config  
 ```  
 
-In that following file search for this line.
+In that following file search for this line.  
 ```  
 #PermitRootLogin yes  
 ```  
@@ -112,6 +118,7 @@ You will notice that what i have done is remove the comment and write it as no.
 Save the file  
 
 > Retart the sshd.  
+
 **Note:** Before performing sshd restart make sure you open a new terminal and do root login to avoid locking yourself out of the server.  
 
 Type this line.  
@@ -124,7 +131,7 @@ Stopping sshd: [ OK ]
 Starting sshd: [ OK ]   
 [root@os ~]#  
 ```  
-But if it's not displayed and you get a message something like this  
+But if it's not displayed and you get a message something like this    
 ```  
 -bash: /etc/init.d/sshd: No such file or directory  
 ```  
@@ -165,6 +172,7 @@ Connection to 188.166.174.63 closed.
 You had to perform so many logouts since you just switched the user from one to another so you need to logout all the users.  
 
 > Final step    
+
 Now that you have loged out completely from one terminal(do not close or logout from the second terminal in which we had logged in as root)  
 Try to log in using root.  
 ```  
