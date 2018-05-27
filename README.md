@@ -18,3 +18,9 @@ So far i have written these
 **[Export Mysql](http://ktgnair.github.io/ExportMysql)** _Posted on 28th April 2018_  
 
 **[How to disable root for ssh](http://ktgnair.github.io/DisableRoot)** _Posted on 6th May 2018_  
+
+**[Things in Mysql](http://ktgnair.github.io/Things in Mysql)** _Posted on 20th May 2018_  
+
+**[Issues during Tomcat](http://ktgnair.github.io/Tomcat_Issues)** _Posted on 27th May 2018_  
+
+
