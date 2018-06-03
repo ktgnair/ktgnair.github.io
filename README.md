@@ -19,7 +19,7 @@ So far i have written these
 
 **[How to disable root for ssh](http://ktgnair.github.io/DisableRoot)** _Posted on 6th May 2018_  
 
-**[Things in Mysql](http://ktgnair.github.io/Things In Mysql)** _Posted on 20th May 2018_  
+**[Things in Mysql](http://ktgnair.github.io/Things In Mysql)** _Posted on 20th May 2018_ _Updated on 3rd June 2018_   
 
 **[Issues during Tomcat](http://ktgnair.github.io/Tomcat_Issues)** _Posted on 27th May 2018_  
 
