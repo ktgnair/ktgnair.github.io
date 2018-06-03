@@ -85,8 +85,8 @@ mysql> show variables like 'validate_password%';
 ```  
 
 ```  
-OUTPUT:  
-![Password Variable](https://octodex.github.com/images/passwordVariables.png)  
+OUTPUT: 
+![Password Variable](/images/db/passwordVariables.png)  
 ```  
 
 The above output tells you that the minimum password length should be 8.  
