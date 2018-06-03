@@ -83,11 +83,9 @@ Simple-  Run this command
 INPUT:  
 mysql> show variables like 'validate_password%';  
 ```  
-
-```  
+ 
 OUTPUT: 
-![Password Variable](/images/db/passwordVariables.png)  
-```  
+> ![Password Variable](/images/db/passwordVariables.png)    
 
 The above output tells you that the minimum password length should be 8.  
 It should contain one uppercase, number and a special character.  
