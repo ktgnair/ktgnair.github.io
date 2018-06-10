@@ -1,4 +1,5 @@
-**[Home](https://ktgnair.github.io/) / [Installation Guide](https://ktgnair.github.io/Installation Guide) / [Session I](https://ktgnair.github.io/Session I) / [Session II](https://ktgnair.github.io/Session II) / [Session III](https://ktgnair.github.io/Session III)**  
+**[Database](https://ktgnair.github.io/Database) / [Installation Guide](https://ktgnair.github.io/Installation Guide) / [Session II](https://ktgnair.github.io/Session II) / [Session III](https://ktgnair.github.io/Session III)**  
+
 
 _**This is a tutorial to get you all started with basics of database using MYSQL.**_   
 
