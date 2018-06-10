@@ -1,4 +1,5 @@
-**[Home](https://ktgnair.github.io/) / [Assignment 1](https://ktgnair.github.io/) / [Assignment 2](https://ktgnair.github.io/Assignment 2) / [Git Tutorials](https://ktgnair.github.io/Basic Github) / [Rules For Code](https://ktgnair.github.io/Rules For Code)**  
+**[Home](https://ktgnair.github.io/) / [Assignment 1](https://ktgnair.github.io/) / [Assignment 2](https://ktgnair.github.io/Assignment 2) / [Rules For Code](https://ktgnair.github.io/Rules For Code) / [Git Tutorials](https://ktgnair.github.io/Basic Github) / [Export Mysql](http://ktgnair.github.io/ExportMysql) / [How to disable root for ssh](http://ktgnair.github.io/DisableRoot) / [Things in Mysql](http://ktgnair.github.io/Things In Mysql) / [Issues during Tomcat](http://ktgnair.github.io/Tomcat_Issues)**  
+
 
 **DATABASE FROM START**  
 
