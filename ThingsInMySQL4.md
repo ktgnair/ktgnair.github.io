@@ -3,7 +3,7 @@
 **Differnt Operations that can be done on MySQL to control it.**  
 
 
-1. Start MySQL  
+**_Start MySQL_**  
 
 ```  
 INPUT:  
@@ -12,7 +12,7 @@ sudo service mysql start
 
 It will ask you for MySQL password just type it and you are good to go.  
 
-2. Stop MySQL  
+**_Stop MySQL_**  
 
 ```  
 INPUT:  
@@ -21,7 +21,7 @@ sudo service mysql stop
 
 It will ask you for MySQL password just type it and you are good to go.  
 
-3. Restart MySQL  
+**_Restart MySQL_**    
 
 ```  
 INPUT:  
@@ -30,7 +30,7 @@ sudo service mysql restart
 
 It will ask you for MySQL password just type it and you are good to go.  
 
-4. Status of MySQL  
+**_Status of MySQL_**  
 
 ```  
 INPUT:  
