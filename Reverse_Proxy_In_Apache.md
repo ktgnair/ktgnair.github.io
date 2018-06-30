@@ -100,10 +100,12 @@ service httpd status
 
 Now that you have finished the configurations its time for you to run it.  
 
-OPEN YOUR BROWSER AND TYPE your URL(ip address)  
+Open your browser and type your URL(ip address)  
 
-JUST DOING THAT YOUR REQUEST WILL BE PASSED TO TOMCAT FROM APACHE AND IT WILL LOAD ANY APPS YOU HAVE IN YOUR TOMCAT  
-EX: SAY YOU HAVE INSTALLED JENKINS IN YOUR TOMCAT THEN AFTER RUNNING THE URL, IT WILL OPEN YOUR JENKINS LOGIN PAGE.  
+Just doing that your request will be passed to Tomcat from Apache and it will load any apps you have in your Tomcat  
+**Example:** Say you have installed Jenkins in your Tomcat then after running the URL, it will open your Jenkins login page.   
 
-HERE YOU CANNOT USE THIS URL   
+After doing all these configurations we will be accessing our apps using just the ip address and not with the port no as we were doing earlier.   
+i.e  
+**YOU CANNOT USE THIS URL**     
 <ip address>:8009   
