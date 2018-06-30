@@ -108,4 +108,4 @@ Just doing that your request will be passed to Tomcat from Apache and it will lo
 After doing all these configurations we will be accessing our apps using just the ip address and not with the port no as we were doing earlier.   
 i.e  
 **YOU CANNOT USE THIS URL**     
-<ip address>:8009   
+**ip address:8009**     
