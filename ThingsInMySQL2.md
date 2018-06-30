@@ -5,12 +5,12 @@
 
 To know the privileges of an user, login to your MySQL with the user login details whose privileges you want to know and type this.  
 ```  
-<b>INPUT:</b>    
+INPUT:     
 show grants;  
 ```  
 
 ```  
-<b>OUTPUT:</b>  
+OUTPUT:    
 Grants for root@localhost     
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' WITH GRANT OPTION   
 GRANT PROXY ON ''@'' TO 'root'@'localhost' WITH GRANT OPTION    
@@ -20,7 +20,7 @@ The above output tells you that all the privileges has been given to the user "r
 
 Another way to view the privileges given to an user is by typing this  
 ```  
-<b>INPUT:</b>    
+INPUT:    
 show grants for current_user;  
 ```  
 
