@@ -4,30 +4,34 @@
 
 
 1. Start MySQL  
+
 ```  
 INPUT:  
 sudo service mysql start  
+```  
 
 It will ask you for MySQL password just type it and you are good to go.  
-```  
 
 2. Stop MySQL  
+
 ```  
 INPUT:  
-sudo service mysql stop    
-
-It will ask you for MySQL password just type it and you are good to go.  
+sudo service mysql stop     
 ```  
 
+It will ask you for MySQL password just type it and you are good to go.  
+
 3. Restart MySQL  
+
 ```  
 INPUT:  
 sudo service mysql restart  
-
-It will ask you for MySQL password just type it and you are good to go.  
 ```  
 
+It will ask you for MySQL password just type it and you are good to go.  
+
 4. Status of MySQL  
+
 ```  
 INPUT:  
 sudo service mysql status    
