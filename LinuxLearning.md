@@ -1,8 +1,13 @@
-Let me start my blog by telling this that there is no one in the world working in an IT field has not come across the term "Linux" in their ongoing life.
+Let me start my blog by telling this that there is no one in the world working in an IT field who has not come across the term "Linux" in their life.
 
-But most of the people do not know the origin of Linux.
+But what most of the people do not know is the story behind Linux.
+It's true that people are more concerned with how to use something new rather than knowing how it all was made or came into existence.
+But let me tell you this that the story behind Linux is something fresh and interesting.
 
-Linux is an operating system that evolved from a kernel created by Linus Torvalds
+Before going towards the story let me give a small hindsight about what Linux is?
+
+Linux is an operating system that developed gradually from a kernel created by Linus Torvalds.
+
 Who created Linux?
 What is “open source”?
 How is Linux developed and maintained?
