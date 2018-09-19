@@ -1,3 +1,5 @@
+> ![Linux Image](/images/linux/linux_title.png)
+
 Let me start my blog by telling this that there is no one in the world working in an IT field who has not come across the term "Linux" in their life.
 
 But what most of the people do not know is the story behind Linux.
