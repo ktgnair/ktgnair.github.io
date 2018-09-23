@@ -18,7 +18,6 @@ Having fed up with Minix, Linus and some other users sent out requests to Minix'
 
 Linus described the beginning of the Linux development as  
 > ""It started out as a project, just testing what a computer could do. I'd just add this and this and it started looking like an operating system."  
-:)  
 
 Year 1991  
 Late 1991 Linus had wrapped some programs along with his kernel to make his project work and to show people what he had done.  
