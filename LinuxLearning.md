@@ -8,9 +8,29 @@ But let me tell you this that the story behind Linux is something fresh and inte
 
 Before going towards the story let me give a small hindsight about what Linux is?
 
-Linux is an operating system that developed gradually from a kernel created by Linus Torvalds.
+Linux is an operating system that developed gradually from a kernel created by Linus Torvalds.  
+It is an alternative which can be used for other operating systems like Windows, Mac OS, Solaris, etc...  
 
-Who created Linux?
+Now towards the origin story  
+
+While studying at the University of Helsinki, Linus(The founder of Linux who was a student then) was using a version of the UNIX operating system called 'Minix' which was the shortcut name for 'mini-Unix'.(By the way UNIX was the first operating system developed in 1970's at Bell Labs by some handfull of programmers using C programming language)  
+Having fed up with Minix, Linus and some other users sent out requests to Minix's creator Andrew Tanenbaum about for modifications and improvements. But Andrew felt that they weren't necessary. That's when Linus decided to create his own operating system as an hobby. He planned to create the operating system that would take into account the user's comments and suggestions for improvements.  
+
+Linus described the beginning of the Linux development as  
+> ""It started out as a project, just testing what a computer could do. I'd just add this and this and it started looking like an operating system."  
+:)  
+
+Year 1991  
+Late 1991 Linus had wrapped some programs along with his kernel to make his project work and to show people what he had done.  
+The first set of people who saw his project came to know that he is on to something. But he still needed more people to help him so, here is what he said then  
+> "Are you without a nice project and dying to cut your teeth on an OS you can try to modify for your needs?... This post might just be for you."  
+
+People gradually got interested and started to offer help. People with only extensive computer programming knowledge could offer their help during the first version of Linux. Slowly the version number of the code begin to increase higher and higher.  
+People started to write programs that could be run on Linux. Developers began writing drivers for video card, sound cards, etc  
+And Finally Linux came into existance...  
+
+The reason different people could offer their help in the development of Linux is because Linux is an open-source operating system.  
+
 What is “open source”?
 How is Linux developed and maintained?
 And anything else you can discover about Linux history
