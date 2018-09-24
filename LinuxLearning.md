@@ -28,8 +28,4 @@ People gradually got interested and started to offer help. People with only exte
 People started to write programs that could be run on Linux. Developers began writing drivers for video card, sound cards, etc  
 And Finally Linux came into existance...  
 
-To know the actual reason why different people could offer their help in the development of Linux click on this *[Linux and it's open-source connection](https://ktgnair.github.io/Linux-OpenSource)*    
-
-What is “open source”?  
-How is Linux developed and maintained?
-And anything else you can discover about Linux history
+To know the actual reason why different people could offer their help in the development of Linux click on this *[Linux and it's open-source connection](https://ktgnair.github.io/Linux-OpenSource)*   
