@@ -10,3 +10,6 @@ Source code is a part of a software which is not accessible to everyone.
 A software which is termed as open-source means that anyone can view the source code, make changes in the source code, do fixes if needed, make improvements and also share it's code.  
 
 So by making the source code readily available to everyone Linus was able to do fixes, implement new things and improve his first version of Linux to a version which is widely used all over the world **Today**.  
+
+How is Linux developed and maintained?
+And anything else you can discover about Linux history
