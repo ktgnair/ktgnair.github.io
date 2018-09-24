@@ -1,8 +1,6 @@
 **[Home](https://ktgnair.github.io/)**  
 
-**_A Step Towards Linux_**  
-
-> ![Linux Image](/images/linux/linux_title.png)
+**_A Step Towards Linux_**   
 
 Let me start my blog by telling this that there is no one in the world working in an IT field who has not come across the term "Linux" in their life.
 
