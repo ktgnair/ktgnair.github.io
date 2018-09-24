@@ -24,8 +24,8 @@ But Andrew felt that they weren't necessary. That's when Linus decided to create
 
 He planned to create the operating system that would take into account the user's comments and suggestions for improvements.  
 
-*Linus described the beginning of the Linux development as  
-> ""It started out as a project, just testing what a computer could do. I'd just add this and this and it started looking like an operating system."*    
+*Linus described the beginning of the Linux development as*    
+> ""It started out as a project, just testing what a computer could do. I'd just add this and this and it started looking like an operating system."      
 
 **_Year 1991_**  
 Late 1991 Linus had wrapped some programs along with his kernel to make his project work and to show people what he had done.  
