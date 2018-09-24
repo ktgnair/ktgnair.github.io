@@ -1,3 +1,5 @@
+[Home](https://ktgnair.github.io/LinuxLearning)  
+
 **Open Source**  
 
 Now that you have come to this page you will now get your answers as to why and how people were able to provide help in Linux development.  
@@ -11,5 +13,5 @@ A software which is termed as open-source means that anyone can view the source 
 
 So by making the source code readily available to everyone Linus was able to do fixes, implement new things and improve his first version of Linux to a version which is widely used all over the world **Today**.  
 
-How is Linux developed and maintained?
-And anything else you can discover about Linux history
+How is Linux developed and maintained?  
+
