@@ -38,6 +38,32 @@ Image 1.3
 
 <b>Step 2: Installing the downloaded file</b>  
 
+Now comes the actual part of installing the JDK which you downloaded in step 1  
+
+Open the downloaded file and just follow the steps which will be guided to you by the installer.  
+Once the JDK is successfully installed, you can confirm it by going to your folder where JDK has been installed.  
+
+In my case I kept the destination path as default so it's installed in the C:\Program Files\Java  
+In that folder there will be 2 other subfolders(JDK and JRE).  
+
+<b>Step 3: Setting up environment variables</b>  
+
+Just installing the JDK is not enough!  
+
+You need to set up the environment variables, so that whenever you run a JAVA program it will recognize the JDK and JRE, which will help to compile your programs successfully.  
+
+Now go to this path <b>Control Panel\System and Security\System</b> of your machine.  
+In there click on the Advanced system setting(as shown in the below image)  
+> ![Step 3.1](/images/Install Java jdk/Step 3.1.PNG)  
+
+After that a popup stating System Properties will be opened, in that click on Environment Variables(as shown in the below image)  
+> ![Step 3.2](/images/Install Java jdk/Step 3.2.PNG)  
+
+
+;C:\Program Files\Java\jdk8\bin;C:\Program Files\Java\jre8\bin;
+
+
+
 
 
 
