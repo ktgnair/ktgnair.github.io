@@ -25,4 +25,8 @@ So far i have written these
 
 **[A Step towards Linux](http://ktgnair.github.io/LinuxLearning)** _Posted on 24th September_  
 
+**[Installing JDK on Windows 10](http://ktgnair.github.io/JDK_Installation)** _Posted on 2nd November_  
+
+
+
 
